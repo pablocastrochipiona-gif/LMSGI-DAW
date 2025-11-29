@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>ejercicio40</title>
+    <meta name="description" content="Esto es la descripción de mi página web">
+    <meta name="keywords" content="html, ejercicio, ejercicio1, ejemplo">
+    <meta name="author" content="Juan Profesor">
+    <meta name="application-name" content="Plantilla.html">
+    <meta name="generator" content="VSCode">
+</head>
+<body>
+    <h1>Información sobre el producto</h1>
+    <form   action="send" method="get">
+        <fieldset>
+            <legend>Datos básicos</legend>
+            Nombre<br><input type="text"><br><br>
+            Descripción<br><textarea></textarea><br><br>
+            <input type="file" id="imagen" name="imagen" accept="image/*">
+            <button type="submit">Subir imagen</button>
+        </fieldset>
+        <fieldset>
+            <legend>Datos económicos</legend>
+            Precio<input type="number" min="0.01">€   Impuestos<select><option>4%</option><option>7%</option><option>15%</option><option>25%</option></select><br>
+            Promoción <br>
+            <input type="radio" value="Ninguno" name="promocion"> Ninguno<br>
+            <input type="radio" value="Transporte gratuito" name="promocion"> Transporte gratuito<br>
+            <input type="radio" value="Descuento 5%" name="promocion"> Descuento 5%<br>
+        </fieldset>
+    </form>
+</body>
+</html>
