@@ -11,25 +11,25 @@
     <meta name="generator" content="VSCode">
 </head>
 <body>
-    <form action="send" method="post">
-        <fieldset>
+    <form action="send" method="post"><!--Primero necesito crear un formulario-->
+        <fieldset><!--Uso un fieldset para agrupar datos-->
             <legend>Rellenar</legend>
-            <select>
+            <select><!--Uso la etiqueta select par dar a elegir entre una serie de opciones-->
                 <option value="Hombre">Hombe</option>
                 <option value="Mujer">Mujer</option>
             </select><br>
-            Elija un color:<input type="color"><br>
-            Elija una fecha:<input type="date"><br>
-            <input type="radio" name="lenguaje" value="Java">Java
+            Elija un color:<input type="color"><br><!--El type color sirve para poder elejir un color-->
+            Elija una fecha:<input type="date"><br><!--Y el fecha para especificar una fecha-->
+            <input type="radio" name="lenguaje" value="Java">Java<!--Uso el typo radio para crear botones circulares, les doy el mismo valor mediante el atributo "value" para hacerlos mutuamente excluentes-->
             <input type="radio" name="lenguaje" value="Python">Python
             <input type="radio" name="lenguaje" value="HTML">HTML
             <input type="radio" name="lenguaje" value="Viasual Basic">Visual Basic
             <input type="radio" name="lenguaje" value="CSS">CSS <br>
             <input type="checkbox" name="sexo" value="sexoHombre">Hombre
             <input type="checkbox" name="sexo" value="sexoMujer">Mujer <br>
-            Elija un fichero <input type="file"><br>
+            Elija un fichero <input type="file"><br><!--El type file sirve para insertar arcivos-->
             <textarea rows="8" cols="60" placeholder="Porfavor, escriba aquí..."></textarea><br>
-            Instituto<input type="text"><br>
+            Instituto<input type="text"><br><!--El text sirve para introducir texto-->
             Estudios elegidos<input type="text"><br>
             Nombre<input type="text"><br>
             Apellidos<input type="text"><br>
@@ -37,16 +37,16 @@
         </fieldset>
         <fieldset>
             <legend>Rellena las opciones siguientes</legend>
-            <input type="checkbox" name="sistema" value="sistemaWindows">Windows
+            <input type="checkbox" name="sistema" value="sistemaWindows">Windows<!--El checkbox es similar al radio pero no son mutuamente excluyentes-->
             <input type="checkbox" name="sistema" value="sistemaMac">Mac 
             <input type="checkbox" name="sistema" value="sistemaLinux">Linux <br>
-            Elija una hora:<input type="time"><br>
+            Elija una hora:<input type="time"><br><!--"hora sirve para especificar una hora"-->
             <input type="radio" name="procesador" value="procesadorAMD">AMD
             <input type="radio" name="procesador" value="procesadorIntel_i5">Intel i5
             <input type="radio" name="procesador" value="procesadorIntel_i7">Intel i7
             Elija un buevo fichero <input type="file"><br>
         </fieldset><br><br><br>
-        <input type="submit" value="Enviar formulario"> <input type="reset" value="Borrar los datos introducidos">
+        <input type="submit" value="Enviar formulario"> <input type="reset" value="Borrar los datos introducidos"> <!--El submit sirve para enviar el formulario y el reset para resetearlo-->
     </form>
 </body>
 </html>
