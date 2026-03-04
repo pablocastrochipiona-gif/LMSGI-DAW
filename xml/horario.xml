@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<horario>
+    <Lunes>
+        <clase horaInicio="08:15" horaFin="09:15">Programación</clase>
+        <clase horaInicio="09:15" horaFin="10:15">Bases de Datos</clase>
+    </Lunes>
+     <Martes>
+        <clase horaInicio="08:15" horaFin="09:15">Lenguajes de Marcas</clase>
+        <clase horaInicio="09:15" horaFin="10:15">Sistemas Informáticos</clase>
+     </Martes>
+</horario>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<agenda>
+    <contacto id="213 123 12C">
+        <nombre>Laura</nombre>
+        <apellidos>Martín Ruiz</apellidos>
+        <teléfono>654111222</teléfono>
+        <email>laura@email.com</email>
+    </contacto>
+    <contacto2 id="456 654 83D">
+        <nombre>Sergio</nombre>
+        <apellidos>López Díaz</apellidos>
+        <teléfono>612333444</teléfono>
+        <email>sergio@email.com</email>
+    </contacto2>
+    <contacto3 id="329 987 45T">
+        <nombre>Marta</nombre>
+        <apellidos>Sánchez Gil</apellidos>
+        <teléfono>699888777</teléfono>
+        <email>marta@email.com</email>
+    </contacto3>
+</agenda>
