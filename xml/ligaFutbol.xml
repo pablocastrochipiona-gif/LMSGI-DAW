@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LigaFútbol>
+
+    <Equipos>
+
+        <equipo id="E1">Real Madrid</equipo>
+        <equipo id="E2">Barcelona</equipo>
+
+    </Equipos>
+
+    <Jugadores>
+
+        <jugador id="J1">Vinicius</jugador>
+        <equipo>E1</equipo>
+
+        <jugador id="J2">Lewandowski</jugador>
+        <equipo>E2</equipo>
+
+    </Jugadores>
+
+    <Partidos>
+
+        <partido id="P1">E1 vs E2</partido>
+        <resultado>2-1</resultado>
+
+    </Partidos>
+
+    <Goles>
+
+        <gol id="Gol 1">J1</gol>
+        <minuto>minuto 15</minuto>
+        <partido>P1</partido>
+
+        <gol id="Gol 2">J2</gol>
+        <minuto>minuto 40</minuto>
+        <partido>P1</partido>
+
+        <gol id="Gol 3">J1</gol>
+        <minuto>minuto 70</minuto>
+        <partido>P1</partido>
+
+    </Goles>
+
+</LigaFútbol>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<instituto>
+
+ <Alumnos>
+
+    <nombre>Pablo García</nombre>
+    <edad>20 años</edad>
+
+    <nombre>Lucía Fernandez</nombre>
+    <edad>19 años</edad>
+
+ </Alumnos>
+
+ <Asignaturas>
+
+    <AS1>Programación</AS1>
+    <AS2>Lenguaje de datos</AS2>
+    <AS3>Lenguajes de marca</AS3>
+
+ </Asignaturas>
+
+ <Matricula>
+
+    <alumno>Pablo</alumno>
+    <asignaturas>Programación, Bases de datos</asignaturas>
+
+    <alumno>Lucía Fernandez</alumno>
+    <asignaturas> Programación, Lenguajes de Marcas</asignaturas>
+    
+ </Matricula>
+
+</instituto>

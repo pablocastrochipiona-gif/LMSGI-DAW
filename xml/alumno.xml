@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <alumno>
+
     <nombre>Pablo</nombre>
     <apellidos>Castro Sánchez</apellidos>
     <edad>17</edad>
     <curso>1º DAW</curso>
     <email>pablocastro.chipiona@alumnos.alborfp.com</email>
     <teléfono>5XX XXX XXX</teléfono>
+    
 </alumno>

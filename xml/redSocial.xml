@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RedSocial>
+
+    <Ususarios>
+
+        <usuario id="U1">David</usuario>
+        <usuario id="U2">Andrea</usuario>
+        <usuario id="U3">David</usuario>
+
+    </Ususarios>
+    
+    <Publicaciones>
+
+        <post id="P1">Hola mundo</post>
+        <autor>U1</autor>
+
+        <post id="P2">Aprendendo XML</post>
+        <autor>U2</autor>
+
+    </Publicaciones>
+    
+    <Comentarios>
+
+        <comentario id="C1">Buen post</comentario>
+        <autor>U3</autor>
+        <sobre>P1</sobre>
+
+        <comentario id="C2">Yo tambien</comentario>
+        <autor>U1</autor>
+        <sobre>P2</sobre>
+
+    </Comentarios>
+
+</RedSocial>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Empleados>
+    <Desarrollo>
+
+        <nombre>Ana Torres</nombre>
+        <puesto>Desarrolladora</puesto>
+        <salario>28.000€</salario>
+        <fecha>2022-03-15</fecha>
+
+        <nombre>Luis Romero</nombre>
+        <puesto>Backend</puesto>
+        <salario>30.000€</salario>
+        <fecha>2021-06-01</fecha>
+
+    </Desarrollo>
+    
+    <Marketing>
+
+        <nombre>Elena Ruíz</nombre>
+        <puesto>Comunity manageer</puesto>
+        <salario>24.000€</salario>
+        <fecha>2023-01-10</fecha>
+
+    </Marketing>
+</Empleados>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ReservasHotel>
+
+    <Hoteles>
+
+        <hotel id="H1">Hotel Sol</hotel>
+        <ubicación>Madrid</ubicación>
+
+        <hotel id="H2">Hotel Playa</hotel>
+        <ubicación>Valencia</ubicación>
+
+    </Hoteles>
+
+    <Habitaciones>
+
+        <habitación id="101"></habitación>
+        <tipo>Individual</tipo>
+        <precio>80€</precio>
+        <hotal>H1</hotal>
+
+        <habitación id="102"></habitación>
+         <tipo>Double</tipo>
+        <precio>120€</precio>
+        <hotal>H1</hotal>
+
+        <habitación id="201"></habitación>
+         <tipo>Suitel</tipo>
+        <precio>200€</precio>
+        <hotal>H2</hotal>
+
+    </Habitaciones>
+
+    <Clientes>
+
+        <cliente id="C1">Roberto Díaz</cliente>
+        <cliente id="C2">Sara Molina</cliente>
+
+    </Clientes>
+
+    <Reservas>
+
+        <reserva id="R1">C1</reserva>
+        <habitación>101</habitación>
+        <fecha>2024-12-01 a 2024-12-05</fecha>
+
+        <reserva id="R2">C2</reserva>
+        <habitación>201</habitación>
+        <fecha>2024-12-10 a 2024-12-12</fecha>
+
+    </Reservas>
+
+</ReservasHotel>

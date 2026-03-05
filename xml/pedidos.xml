@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pedidos>
+    
+    <Pedido numero = "1001">
+
+        <cliente>Javier López</cliente>
+        <fecha>2024-11-01</fecha>
+        <productos>
+
+            <producto1>Teclado</producto1>
+            <cantidad> 2 unidades </cantidad>
+            <precio> 25€ </precio>
+
+            <producto2>Ratón</producto2>
+            <cantidad> 1 unidad </cantidad>
+            <precio> 15€ </precio>
+
+        </productos>
+        <total> 65€ </total>
+
+    </Pedido>
+
+    <Pedido numero="1002">
+
+        <cliente>María Gil</cliente>
+        <fecha>2024-11-01</fecha>
+        <productos>
+
+            <producto1>Monitor</producto1>
+            <cantidad> 1 unidad </cantidad>
+            <precio> 199€ </precio>
+
+        </productos>
+        <total> 199€ </total>
+
+    </Pedido>
+
+</Pedidos>

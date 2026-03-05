@@ -1,21 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <catálogo>
+
     <videojuego código="1234 1234">
         <titulo>Elden Ring</titulo>
         <año>2022</año>
         <género>RPG</género>
         <precio>59.99</precio>
     </videojuego>
+
     <videojuego2 código="3456 3456">
         <titulo>FIFA 24 </titulo>
         <año>2023</año>
         <género>Deportes</género>
         <precio>69.99</precio>
     </videojuego2>
+
     <videojuego3 código="6789 6789">
         <titulo>Minecraft</titulo>
         <año>2011</año>
         <género>Sandbox</género>
         <precio>26.95</precio>
     </videojuego3>
+    
 </catálogo>
