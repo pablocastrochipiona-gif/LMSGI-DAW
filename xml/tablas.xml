@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tablas>
+
+    <Clientes>
+
+        <id_cliente>
+
+            <id>1</id>
+            <id>2</id>
+
+        </id_cliente>
+
+        <nombres>
+
+            <nombre>Carlos</nombre>
+            <nombre>Lucía</nombre>
+
+        </nombres>
+
+        <ciudades>
+
+            <ciudad>Madrid</ciudad>
+            <ciudad>Sevilla</ciudad>
+
+        </ciudades>
+
+    </Clientes>
+
+    <Factura>
+
+        <id_facturas>
+
+            <id>100</id>
+            <id>101</id>
+
+        </id_facturas>
+
+        <fechas>
+
+            <fecha>2024-10-01</fecha>
+            <fecha>2024-10-02</fecha>
+            
+        </fechas>
+
+        <id_cliente>
+
+            <id>1</id>
+            <id>2</id>
+
+        </id_cliente>
+        
+    </Factura>
+
+    <Lineas_Factura>
+
+        <id_linea>
+
+            <id>1</id>
+            <id>2</id>
+            <id>3</id>
+
+        </id_linea>
+
+        <id_factura>
+            
+            <id>1oo</id>
+            <id>100</id>
+            <id>100</id>
+
+        </id_factura>
+
+        <productos>
+
+            <producto>Teclado</producto>
+            <producto>Ratón</producto>
+            <producto>Monitor</producto>
+
+        </productos>
+
+        <cantidad>
+
+            <cantidad>1</cantidad>
+            <cantidad>2</cantidad>
+            <cantidad>1</cantidad>
+
+        </cantidad>
+
+        <precios>
+
+            <precio>25 €</precio>
+            <precio>15 €</precio>
+            <precio>199 €</precio>
+
+        </precios>
+    </Lineas_Factura>
+
+</Tablas>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Móviles>
+
+    <Marcas>
+
+        <marca>Appel</marca>
+        <marca>Samsung</marca>
+
+    </Marcas>
+
+    <Modelos>
+        
+        <Samsung>
+
+            <modelo>Galaxy S23</modelo>
+            <RAM>8 GB RAM</RAM>
+            <memoria>256 GB</memoria>
+            <precio>959 €</precio>
+
+            <modelo>Galaxy A54</modelo>
+            <RAM>6 GB RAM</RAM>
+            <memoria>128 GB</memoria>
+            <precio>449 €</precio>
+
+        </Samsung>
+
+        <Appel>
+
+            <modelo>Iphone 15</modelo>
+            <RAM>6 GB RAM</RAM>
+            <memoria>128 GB</memoria>
+            <precio>959 €</precio>
+
+            <modelo>Iphone 15 pro</modelo>
+            <RAM>8 GB RAM</RAM>
+            <memoria>256 GB</memoria>
+            <precio>1219 €</precio>  
+
+        </Appel>
+
+    </Modelos>
+
+</Móviles>

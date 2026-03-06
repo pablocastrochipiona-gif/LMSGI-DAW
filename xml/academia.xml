@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Academia>
+
+    <Profesores>
+
+        <profesor id="P1">Antonio Ruiz</profesor>
+        <asignatra>Programación</asignatra>
+
+        <profesor id="P2">Marta Gil</profesor>
+        <asignatra>Bases de Datos</asignatra>
+
+    </Profesores>
+
+    <Cursos>
+
+        <curso>1º DAW</curso>
+        <curso>2º DAW</curso>
+
+    </Cursos>
+
+    <Alumnos>
+
+        <alumno id="A1">Daniel</alumno>
+        <curso>1º DAW</curso>
+
+        <alumno id="A2">Clara</alumno>
+        <curso>2º DAW</curso>
+
+    </Alumnos>
+
+    <Notas>
+
+        <alumno>Daniel</alumno>
+        <asignatura>Programación</asignatura>
+        <nota>8</nota>
+
+        <alumno>Daniel</alumno>
+        <asignatura>Bases de datos</asignatura>
+        <nota>7</nota>
+
+        <alumno>Clara</alumno>
+        <asignatura>Programación</asignatura>
+        <nota>9</nota>
+
+    </Notas>
+</Academia>
