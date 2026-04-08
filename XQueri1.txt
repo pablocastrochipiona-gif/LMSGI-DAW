@@ -3,9 +3,70 @@ for $ld in /libros/libro
 return $ld/titulo
 
 Ejercicio 2:
-libros/libro[precio>20]/titulo
+for $ld in /libros/libro
+where $ld/precio > 20
+return $ld/titulo
 
 Ejercicio 3:
-alumnos/alumno/@id | alumnos/alumno/nombre
+for $al in /alumnos/alumno
+return $al/@id | $al/nombre
 
 Ejercicio 4:
+for $p in /productos/producto
+order by $p/precio
+return $p/nombre
+
+Ejercicio 5:
+let $emp := /empleados
+return count($emp/empleado)
+
+Ejercicio 6:
+let $total := sum(/numeros/numero)
+return <total>{$total}</total>
+
+Ejercicio 7:
+for $pp in /personas/persona
+where $pp/edad >= 18
+return $pp/nombre
+
+Ejercicio 8: 
+for $cur in /cursos
+return distinct-values($cur/curso/nombre)
+
+Ejercicio 9:
+let $total := sum(/ventas/venta[producto = "A"]/cantidad)
+return <total>{$total}</total>
+
+Ejercicio 10:
+for $p in /pedidos/pedido
+where $p/total > 100 
+return $p/cliente
+
+Ejercicio 11:
+Completar
+
+Ejercicio 12:
+let $total := sum(/empresa/notas/nota)
+let $total1 := count(/empresa/notas/nota)
+return <total>{$total div $total1}</total>
+
+Ejercicio 13:
+for $t in /tienda/producto
+where $t[@categoria="A"]
+return $t/precio
+
+Ejercicio 14:
+Completar
+
+Ejercicio 15:
+for $cl in /clases/clase
+where $cl/nota > 5
+return $cl/alumno
+
+Ejercicio 16:
+let $max := max(/biblioteca/libro/paginas)
+for $b in /biblioteca/libro
+where $b/paginas = $max
+return <notaMayor>{$max}</notaMayor>
+
+Ejercicio 17:
