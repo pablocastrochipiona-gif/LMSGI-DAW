@@ -70,3 +70,16 @@ where $b/paginas = $max
 return <notaMayor>{$max}</notaMayor>
 
 Ejercicio 17:
+for $c in /pedidos/pedido
+where $c/cliente = "Ana"
+return $c/producto 
+//Comprobar
+
+Ejercicio 18:
+Preguntar por explicación
+
+Ejercicio 19:
+Por hacer
+
+Ejercicio 20:
+Por hacer
