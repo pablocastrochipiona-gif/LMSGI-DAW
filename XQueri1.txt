@@ -1,0 +1,11 @@
+Ejercicio 1:
+for $ld in /libros/libro
+return $ld/titulo
+
+Ejercicio 2:
+libros/libro[precio>20]/titulo
+
+Ejercicio 3:
+alumnos/alumno/@id | alumnos/alumno/nombre
+
+Ejercicio 4:
