@@ -43,7 +43,19 @@ where $p/total > 100
 return $p/cliente
 
 Ejercicio 11:
-Completar
+for $p in /empresa/empleado
+group by $publisher := $p/departamento="IT"
+group by $publisher := $p/departamento="HR"
+return
+    <grupo categoria="{$publisher}">
+        <departemento>{$p/departamento}</departemento>
+        <nombres>
+            {
+                for $l in $p
+                return <nombre>{data($l/nombre)}</nombre>
+            }
+        </nombres>
+    </grupo>
 
 Ejercicio 12:
 let $total := sum(/empresa/notas/nota)
@@ -56,7 +68,8 @@ where $t[@categoria="A"]
 return $t/precio
 
 Ejercicio 14:
-Completar
+for $l in /libros/libro
+return $l/titulo |  $l/autor
 
 Ejercicio 15:
 for $cl in /clases/clase
@@ -70,16 +83,33 @@ where $b/paginas = $max
 return <notaMayor>{$max}</notaMayor>
 
 Ejercicio 17:
-for $c in /pedidos/pedido
-where $c/cliente = "Ana"
-return $c/producto 
+for $p in /pedidos/pedido
+where $p/cliente = "Ana"
+return <x>Ana: {$p/producto}</x>
 //Comprobar
 
 Ejercicio 18:
-Preguntar por explicación
+let $total := sum(empresa/empleado/salario)
+return $total
 
 Ejercicio 19:
-Por hacer
+for $u in universidad/alumno
+group by $publisher := $u/carrera="DAW"
+let $total := count($u/carrera)
+group by $publisher := $u/carrera="DAM"
+let $total := count($u/carrera)
+return
+    <grupo categoria="{$publisher}">
+    
+        <contador>
+            {
+                for $l in $u
+                return <cuenta>{$total},</cuenta>
+            }
+        </contador>
+    </grupo>
+
+    //Completar
 
 Ejercicio 20:
 Por hacer
