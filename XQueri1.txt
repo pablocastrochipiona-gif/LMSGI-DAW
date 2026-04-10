@@ -84,9 +84,16 @@ return <notaMayor>{$max}</notaMayor>
 
 Ejercicio 17:
 for $p in /pedidos/pedido
-where $p/cliente = "Ana"
-return <x>Ana: {$p/producto}</x>
-//Comprobar
+where $p/cliente="Ana"
+for $etiqueta_cliente in $p/cliente
+return
+    <resultado>
+    <cliente>{$etiqueta_cliente}</cliente>
+        {
+        <producto>{ $p/producto}</producto>
+        }
+    </resultado>
+//Mejorar
 
 Ejercicio 18:
 let $total := sum(empresa/empleado/salario)
@@ -98,18 +105,30 @@ group by $publisher := $u/carrera="DAW"
 let $total := count($u/carrera)
 group by $publisher := $u/carrera="DAM"
 let $total := count($u/carrera)
+for $etiqueta_carrera in $u/carrera
 return
     <grupo categoria="{$publisher}">
     
         <contador>
             {
-                for $l in $u
-                return <cuenta>{$total},</cuenta>
+               <cuenta>{$etiqueta_carrera} - {$total}</cuenta>
             }
         </contador>
     </grupo>
 
-    //Completar
-
 Ejercicio 20:
-Por hacer
+for $u in tienda/pedido
+group by $publisher := $u/cliente="Ana"
+let $total := sum($u/productos/producto/precio)
+group by $publisher := $u/cliente="Juan"
+let $total := sum($u/productos/producto/precio)
+for $etiqueta_costo in $u/cliente
+return 
+    <grupo categoria="{$publisher}">
+    
+        <contador>
+            {
+              <cuenta>{$etiqueta_costo} - {$total}€</cuenta>
+            }
+        </contador>
+    </grupo>
