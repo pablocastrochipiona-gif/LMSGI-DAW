@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <title>Bootstrap</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+</head>
+<body>
+
+<nav class="navbar bg-dark border-bottom" data-bs-theme="dark">
+    <a class="navbar-brand" style="margin-left: 10px;">Admin Panel</a>
+    <form class="d-flex" role="search" style="width: 76%;">
+      <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
+      <a class="navbar-brand text-white me-2" style="padding: 20px;">Admin</a>
+      <button class="btn btn-outline-success" type="submit" style="margin-right: 15px;">Cerrar Sesión</button>
+    </form>
+</nav>
+
+  <div class="row">
+
+    <div class="col-auto d-flex flex-column flex-shrink-0 p-3 bg-white border-end" style="width: 240px; min-height: calc(100vh - 56px);">
+      <ul class="nav nav-pills flex-column mb-auto">
+        <li class="nav-item">
+          <a href="#" class="nav-link active">Home</a>
+        </li>
+        <li>
+          <a href="#" class="nav-link link-body-emphasis">Dashboard</a>
+        </li>
+        <li>
+          <a href="#" class="nav-link link-body-emphasis">Usuarios</a>
+        </li>
+        <li>
+          <a href="#" class="nav-link link-body-emphasis">Productos</a>
+        </li>
+        <li>
+          <a href="#" class="nav-link link-body-emphasis">Configuración</a>
+        </li>
+      </ul>
+    </div>
+
+    <div class="col p-4">
+      <div class="row g-3">
+        <div class="col-md-4">
+          <div class="card h-100">
+            <div class="card-body" style="background-color:cyan">
+              <h5 class="card-title">Usuarios</h5>
+              <h4 class="card-subtitle mb-2 text-muted">150</h4>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card h-100">
+            <div class="card-body" style="background-color:greenyellow">
+              <h5 class="card-title">Ventas</h5>
+              <h4 class="card-subtitle mb-2 text-muted">320</h4>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card h-100">
+            <div class="card-body" style="background-color:yellow">
+              <h5 class="card-title" >Visitas</h5>
+              <h4 class="card-subtitle mb-2 text-muted" style="color: white;">1200</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col p-5">
+        <label><h3>Listado de Usuarios</h3></label>
+        <table class="table table-striped">
+  <thead class="table-dark">
+    <tr>
+      <th scope="col" >ID</th>
+      <th scope="col" >Nombre</th>
+      <th scope="col" >Email</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td>Juan</td>
+      <td>juan@email.com</td>
+    </tr>
+    <tr>
+      <th scope="row">2</th>
+      <td>Ana</td>
+      <td>ana@email.com</td>
+    </tr>
+    <tr>
+      <th scope="row">3</th>
+      <td>Pedro</td>
+      <td>pedro@email.com</td>
+    </tr>
+    <tr>
+      <th scope="row">4</th>
+      <td>Lucía</td>
+      <td>lecia@email.com</td>
+    </tr>
+    <tr>
+      <th scope="row">5</th>
+      <td>Carlos</td>
+      <td>carlos@email.com</td>
+    </tr>
+  </tbody>
+        </table>
+      </div>
+      <div class="col p-6">
+        <form>
+  <label><h3>Nuevo Usuario</h3></label>
+  <div class="form-group">
+    <label for="formGroupExampleInput">Nombre</label>
+    <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Introduce tu contraseña"><br>
+  </div>
+  <div class="form-group">
+    <label for="formGroupExampleInput2">Email</label>
+    <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Introduce tu email"><br>
+  </div>
+  <div class="form-group">
+    <label for="formGroupExampleInput3">Contraseña</label>
+    <input type="password" class="form-control" id="inputPassword"><br>
+  </div>
+  <button type="submit" class="btn btn-primary">Guardar</button>
+</form>
+      </div>
+    </div>
+  </div>
+
+
+</body>
+</html>
